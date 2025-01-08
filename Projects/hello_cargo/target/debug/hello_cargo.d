@@ -1,1 +1,1 @@
-E:\Study\Month_Train\Rust\Projects\hello_cargo\target\debug\hello_cargo.exe: E:\Study\Month_Train\Rust\Projects\hello_cargo\src\main.rs
+D:\goldmaster631026_git\Rust_Project\Projects\hello_cargo\target\debug\hello_cargo.exe: D:\goldmaster631026_git\Rust_Project\Projects\hello_cargo\src\main.rs
