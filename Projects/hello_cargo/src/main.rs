@@ -33,5 +33,6 @@ fn main() {
     let mut user2 : User = build_user ( "asd_mail".to_string(), "my_name".to_string());
     println!("{}",user2.email);
     println!("{}", black.2);
+    println!("{}", black.0);
 
 }
