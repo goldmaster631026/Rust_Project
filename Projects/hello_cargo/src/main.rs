@@ -73,6 +73,8 @@
 // }
 
 
+pub mod garden;
+use crate::garden::vegetables::Asparagus;
 
 
 use std::io;
@@ -98,4 +100,7 @@ mod my_new_module {
 fn main() {
     // my_module::public_function();
     my_new_module::new_greet();
+    let plant = Asparagus{};
+    println! ("I'm growing {plant:?}");
 }
+
