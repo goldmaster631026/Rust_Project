@@ -98,9 +98,28 @@ mod my_new_module {
 
 
 fn main() {
-    // my_module::public_function();
+    //f my_module::public_function();
     my_new_module::new_greet();
     let plant = Asparagus{};
     println! ("I'm growing {plant:?}");
+    mylib::greet("Alice !");
+
+    let x : f64 = -20.23;
+    let x : i64 = x.floor() as i64;
+    println!("{x}");
+    let s: &str = "hello"; // &str
+    let s: String = s.to_uppercase(); // String
+    println!("{}", s); // HELLO
+    let st = s;
+    println!("{}", st);
+    let p1 = plus_one;
+    let xx = p1(7);
+    println!("{xx}");
+    let square =  | i : i32 | -> i32 { i * i };
+    println!("{}", square(3));
+}
+
+fn plus_one( a: i32) -> i32 {
+    a + 1
 }
 

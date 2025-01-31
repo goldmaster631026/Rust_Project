@@ -34,6 +34,10 @@ fn main() {
             r = d;
         }
     }
+    let name = "Alice";
+let age = 30;
+let info = format!("{} is {} years old.", name, age);
+println!("{}", info); // Outputs: "Alice is 30 years old."
 
     // Output the minimum difference
     println!("{}", r);
