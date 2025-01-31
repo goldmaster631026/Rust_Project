@@ -98,7 +98,7 @@ mod my_new_module {
 
 
 fn main() {
-    //f my_module::public_function();
+    // my_module::public_function();
     my_new_module::new_greet();
     let plant = Asparagus{};
     println! ("I'm growing {plant:?}");
