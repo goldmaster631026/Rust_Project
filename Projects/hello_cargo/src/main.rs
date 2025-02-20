@@ -79,15 +79,15 @@ use crate::garden::vegetables::Asparagus;
 
 use std::io;
 
-mod my_module {
-    pub fn public_function(){
-        println!("This function is public!");
-    }
+// mod my_module {
+//     pub fn public_function(){
+//         println!("This function is public!");
+//     }
 
-    fn private_function(){
-        println!("This function is private!")
-    }
-}
+//     fn private_function(){
+//         println!("This function is private!")
+//     }
+// }
 
 mod my_new_module {
     use crate::my_module::public_function;
