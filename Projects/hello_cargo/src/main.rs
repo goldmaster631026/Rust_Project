@@ -60,17 +60,17 @@
 //     println!("Hello, world!");
 //     println!("{}",user1.email);
 
-//     let mut user2 : User = build_user ( "asd_mail".to_string(), "my_name".to_string());
-//     println!("{}",user2.email);
-//     println!("{}", black.2);
-//     println!("{}", black.0);
-//     println! ("{}", area(rect1));
-//     println! ("{}", area_struct(&rect2));
-//     // println!("{}", rect1.height);
-//     println!("{}", rect2.height);
-//     println! ("{rect2:?}");
-//     println!("Can rect3 hold rect4? {}", rect3.can_hold(&rect4));
-// }
+    let mut user2 : User = build_user ( "asd_mail".to_string(), "my_name".to_string());
+    println!("{}",user2.email);
+    println!("{}", black.2);
+    println!("{}", black.0);
+    println! ("{}", area(rect1));
+    println! ("{}", area_struct(&rect2));
+    // println!("{}", rect1.height);
+    println!("{}", rect2.height);
+    println! ("{rect2:?}");
+    println!("Can rect3 hold rect4? {}", rect3.can_hold(&rect4));
+}
 
 
 pub mod garden;
@@ -79,15 +79,15 @@ use crate::garden::vegetables::Asparagus;
 
 use std::io;
 
-// mod my_module {
-//     pub fn public_function(){
-//         println!("This function is public!");
-//     }
+mod my_module {
+    pub fn public_function(){
+        println!("This function is public!");
+    }
 
-//     fn private_function(){
-//         println!("This function is private!")
-//     }
-// }
+    fn private_function(){
+        println!("This function is private!")
+    }
+}
 
 mod my_new_module {
     use crate::my_module::public_function;
