@@ -63,10 +63,10 @@
 //     let mut user2 : User = build_user ( "asd_mail".to_string(), "my_name".to_string());
 //     println!("{}",user2.email);
 //     println!("{}", black.2);
-//     println!("{}", black.0);
+
 //     println! ("{}", area(rect1));
 //     println! ("{}", area_struct(&rect2));
-//     // println!("{}", rect1.height);
+
 //     println!("{}", rect2.height);
 //     println! ("{rect2:?}");
 //     println!("Can rect3 hold rect4? {}", rect3.can_hold(&rect4));
