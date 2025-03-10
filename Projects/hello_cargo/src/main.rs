@@ -66,7 +66,7 @@
 
 //     println! ("{}", area(rect1));
 //     println! ("{}", area_struct(&rect2));
-//     // println!("{}", rect1.height);
+
 //     println!("{}", rect2.height);
 //     println! ("{rect2:?}");
 //     println!("Can rect3 hold rect4? {}", rect3.can_hold(&rect4));
